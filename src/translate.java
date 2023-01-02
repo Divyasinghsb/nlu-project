@@ -16,7 +16,7 @@ public class translate {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         //String a = sc.nextLine();
-        System.out.println("enter the word:");
+        System.out.println("Provide the text to be translated:\n");
         String a = sc.nextLine();
         //System.out.println("bonjour");
         IamAuthenticator authenticator = new IamAuthenticator("q23DXMiCismQjKKAlf596tPl6IPCtm-7uI8z_Iiw1jLP");
